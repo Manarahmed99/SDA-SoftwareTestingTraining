@@ -1,12 +1,12 @@
-package Assignment;
+package Tests.Assignment.JunitAssignments;
 
-import Junit.Tests;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Cookie;
+
 import java.util.Set;
 
-public class JUnitAssignment5 extends Tests {
+public class JUnitAssignment5 extends TestBase {
+
 
     /*
      Go to URL: http://facebook.com
@@ -37,5 +37,6 @@ public class JUnitAssignment5 extends Tests {
 
 
     }
+
 
 }

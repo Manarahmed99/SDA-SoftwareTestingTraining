@@ -1,13 +1,13 @@
-package Assignment;
+package Tests.Assignment.JunitAssignments;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.interactions.Actions;
 
-public class JUnitAssignment3 extends Tests {
+public class JUnitAssignment3 extends TestBase{
 
-        /*
+     /*
         Go to URL: http://demo.guru99.com/test/drag_drop.html
         Drag and drop the BANK button to the Account section in DEBIT SIDE
         Drag and drop the SALES button to the Account section in CREDIT SIDE
@@ -73,10 +73,4 @@ public class JUnitAssignment3 extends Tests {
 
     }
 
-
-
-
-
-
-
-    }
+}

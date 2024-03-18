@@ -1,6 +1,5 @@
-package Assignment;
+package Tests.Assignment.JunitAssignments;
 
-import Junit.Tests;
 import org.apache.commons.io.FileUtils;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
@@ -11,9 +10,9 @@ import org.openqa.selenium.WebElement;
 import java.io.File;
 import java.io.IOException;
 
-public class JUnitAssignment7 extends Tests {
+public class JUnitAssignment7 extends TestBase {
 
-            /*
+      /*
                  Assignment 7
                  Go to amazon.com
                  Take Full Page Screenshot.

@@ -1,4 +1,4 @@
-package Assignment;
+package Tests.Assignment.JunitAssignments;
 
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
@@ -12,6 +12,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class JUnitAssignment6 {
+
     /*
         Store the path of the file as string and open the file.
         Open the workbook.
@@ -84,6 +85,5 @@ public class JUnitAssignment6 {
         System.out.println("Excel file written successfully.");
 
     }
-
 
 }

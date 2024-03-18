@@ -1,15 +1,14 @@
-package Assignment;
+package Tests.Assignment.JunitAssignments;
 
-import Junit.Tests;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 
 import java.util.Set;
 
-public class JUnitAssignment2 extends Tests {
+public class JUnitAssignment2 extends TestBase{
 
-    /*
+      /*
     Go to URL: https://the-internet.herokuapp.com/windows
     Verify the text: “Opening a new window”
     Verify the title of the page is “The Internet”
@@ -21,7 +20,7 @@ public class JUnitAssignment2 extends Tests {
     @Test
     public void InternetHerokuAppWindows(){
 
-        bot.navigate("https://the-internet.herokuapp.com/windows");
+        driver.navigate().to("https://the-internet.herokuapp.com/windows");
 
 
 
@@ -61,5 +60,4 @@ public class JUnitAssignment2 extends Tests {
 
 
     }
-
 }

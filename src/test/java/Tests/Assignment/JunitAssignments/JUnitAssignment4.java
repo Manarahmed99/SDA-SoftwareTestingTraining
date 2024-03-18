@@ -1,12 +1,12 @@
-package Assignment;
+package Tests.Assignment.JunitAssignments;
 
-import Junit.Tests;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 
-public class JUnitAssignment4 extends Tests {
+public class JUnitAssignment4 extends TestBase {
+
 
 
     /*
@@ -40,5 +40,4 @@ public class JUnitAssignment4 extends Tests {
         System.out.println(driver.findElement(result).getText());
 
     }
-
 }

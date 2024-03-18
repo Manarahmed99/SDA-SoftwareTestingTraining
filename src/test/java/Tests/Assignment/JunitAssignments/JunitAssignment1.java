@@ -1,13 +1,12 @@
-package Assignment;
+package Tests.Assignment.JunitAssignments;
 
-import Junit.Tests;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.interactions.Actions;
 
-public class JUnitAssignment1 extends Tests {
+public class JunitAssignment1 extends TestBase{
 
     /*
     Go to URL: https://api.jquery.com/dblclick/
@@ -15,7 +14,6 @@ public class JUnitAssignment1 extends Tests {
     Go top of the page and sendKeys "Thanks to JavascriptExecutor"
     Go to the bottom of the page and click the book, name"jQuery in Action"
     */
-
 
     @Test
     public void JqueryClickTestcase() {
@@ -47,6 +45,4 @@ public class JUnitAssignment1 extends Tests {
         Assertions.assertEquals("https://www.manning.com/books/jquery-in-action-third-edition",  driver.getCurrentUrl());
         System.out.println("The webpage: " + driver.getTitle());
     }
-
-
 }
