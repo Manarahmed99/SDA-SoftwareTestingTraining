@@ -2,9 +2,13 @@ package Tests.Assignment.TestNGAssignments;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+import java.util.List;
 
 public class TestNGAssignment4 extends TestBase{
 
@@ -37,6 +41,10 @@ public class TestNGAssignment4 extends TestBase{
                 .sendKeys(Keys.ENTER)
                 .build()
                 .perform();
+
+
+        By items = By.className("product-layout");
+        System.out.println("Device: " + device + " - Number of items: " + driver.findElements(items).size());
 
 
     }

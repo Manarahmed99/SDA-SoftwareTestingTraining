@@ -30,6 +30,7 @@ public class TestNGAssignment3 extends TestBase{
 
 
         SoftAssert softAssert = new SoftAssert();
+        softAssert.assertTrue(driver.findElement(actualErrorMessage).isDisplayed(),"Error message is not displayed");
         softAssert.assertEquals(driver.findElement(actualErrorMessage).getText(), "Your password is invalid!", "Error message mismatch");
         softAssert.assertAll();
 
